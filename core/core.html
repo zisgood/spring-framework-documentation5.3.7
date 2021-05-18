@@ -39,8 +39,14 @@
     padding: 0;
 }
 .translate {
-#	display:none;
-	font-size:small;
+#	display: none;
+#	font-size: small;
+#	color: #090;
+	color: #6db33f;
+}
+
+div p + div {
+	margin-top: -20px;
 }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -917,7 +923,7 @@ bean及其之间的依赖关系反映在容器使用的配置元数据中。
 </div>
 </div>
 <div class="sect2">
-<h3 id="beans-basics"><a class="anchor" href="#beans-basics"></a>1.2. Container Overview<div class="translate">容器概述</div></h3>
+<h3 id="beans-basics"><a class="anchor" href="#beans-basics"></a>1.2. Container Overview<div class="translate">（容器概述）</div></h3>
 <div class="paragraph">
 <p>The <code>org.springframework.context.ApplicationContext</code> interface represents the Spring IoC
 container and is responsible for instantiating, configuring, and assembling the
