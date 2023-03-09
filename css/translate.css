@@ -1,0 +1,14 @@
+.translate {
+#	display: none;
+	font-size: small;
+#	color: #090;
+	color: #6db33f;
+}
+
+div p + div {
+	margin-top: -20px;
+}
+
+div p {
+#    display: none;
+}
